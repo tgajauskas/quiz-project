@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: Tahoma;
+}
+
+.quiz {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#startButton {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    background: darkgoldenrod;
+    color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+#startButton:hover {
+    background: gold;
+    color: black;
+    cursor: pointer;
+}
+
+#resultsHeader {
+    background: -webkit-linear-gradient(#D3CCE3, #E9E4F0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content p {
+    background: -webkit-linear-gradient(#F00000, #DC281E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background: darkgoldenrod;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: gold;
+    color: black;
+    cursor:pointer;
+}
+
+#questionNum {
+    background: -webkit-linear-gradient(#D3CCE3, #E9E4F0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    font-size: 20px;
+}
